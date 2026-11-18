@@ -1,0 +1,2 @@
+# This directory holds SQLite database files and runtime artifacts.
+# Actual databases (*.db) are ignored by git.

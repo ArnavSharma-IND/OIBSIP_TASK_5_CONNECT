@@ -1,0 +1,22 @@
+{
+    "server": {
+        "host": "127.0.0.1",
+        "port": 5000,
+        "db_path": "data/connect.db",
+        "default_room": "general",
+        "pbkdf2_iterations": 100000,
+        "max_packet_size": 65536,
+        "max_message_length": 2000,
+        "history_default_limit": 50,
+        "history_max_limit": 100,
+        "client_timeout": 300.0,
+        "log_level": "INFO"
+    },
+    "client": {
+        "host": "127.0.0.1",
+        "port": 5000,
+        "theme": "dark",
+        "sound_notifications": true,
+        "desktop_notifications": true
+    }
+}

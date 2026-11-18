@@ -1,0 +1,42 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite databases & runtime data (Preserve data/ directory structure via .gitkeep)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+*.db
+*.sqlite3
+
+# Local user configurations
+config.json
+client_config.json
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Packaging & PyInstaller
+build/
+dist/
+*.spec
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
